@@ -13,48 +13,84 @@
     <link href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="Top-Container">
+    
+    <div class="Top-Container" id="Home">
+        <header>
+            <nav class="Nav-Bar">
+                <ul>
+                    <li><a href="#ContactMe">Contact Me</a></li>
+                    <li><a href="#Skills">Skills</a></li>
+                    <li><a href="#About Me">About Me</a></li>
+                    <li><a href="#Home">Home</a></li>
+                </ul>
+            </nav>
+        </header>
         <img class="left-cloud" src="Images/cloud.png" alt="cloud-img">
         <img class="right-cloud" src="Images/cloud.png" alt="cloud-img">
         <h1>I'm Aryan.</h1>
-        <h2>a CSE UG student.</h2>
+        <h2>a web devloper.</h2>
         <img src="Images/mountain.png" alt="mountain-img">
     </div>
 
     <div class="Middle-Container">
-        <div class="profile">
+        <div class="About ME" id="About Me">
+            <h2>About Me</h2>
             <img class="profile-pic" src="Images/profile pic.png" alt="profile pic">
-            <h2>Hello.</h2>
-            <p class="bio">I am a CSE undergraduate student at LNMIIT. I love Programming.</p>
+            <h3>Hello.</h3>
+            <p class="bio">I'm Aryan Shah. I'm born and brought up in Jamnagar, Gujarat. I am 
+                currently pursuing a B.tech degree in CSE from LNMIIT, Jaipur. Other than 
+                Web Development, I'm also doing Competetive Programming, Graphic Designing, 
+                Photography and so many different things. Though I am not good at sports but 
+                try to play Table Tennis everyday to keep myself physically fit.
+            </p>
         </div>
         <hr>
 
-        <div class="myskills">
+        <div class="myskills" id="Skills">
             <h2>My Skills.</h2>
             <div class="skill">
                 <img class="img1" src="Images/rubik.png" alt="rubikscube-img">
                 <h3>Cube Solving</h3>
                 <p>I started solving cubes when I was in class 9th. I may not be a good speedcuber but I at good solving almost all kinds of cubes.</p>
+                <h4>Cubes:</h4>
+                <ul>
+                    <li>Rubik's Cubes(2x2, 3x3, 4x4, 5x5, 6x6, 7x7, 8x8)</li>
+                    <li>Megaminx</li>
+                    <li>Megamorphix</li>
+                    <li>Pyramorphix</li>
+                    <li>Mirror Cube</li>
+                    <li>skewb...</li>
+                </ul>
             </div>
 
             <div class="skill">
                 <img class="img2" src="https://media4.giphy.com/media/WFZvB7VIXBgiz3oDXE/giphy.gif?cid=ecf05e4721ku6ykf5aov0468h9m6n0hxafsvcibi57as3nam&rid=giphy.gif&ct=s" alt="coding-img">
                 <h3>Competetive Programming</h3>
-                <p>I started doing Competetive Programming just after I joined the college. Still I am in the developing phase.</p>
+                <p>I started doing Competetive Programming just after I joined the college.</p>
+                <h4>Languages:</h4>
+                <ul>
+                    <li>C</li>
+                    <li>C++</li>
+                </ul>
             </div>       
             
             <div class="skill">
                 <img class="img3" src="Images/coding (1).png" alt="coding-1-img">
                 <h3>Web Development</h3>
                 <p>This is my first website that I created using HTML and CSS. Now, I am in love with it.</p>
+                <h4>Languages:</h4>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                </ul>
             </div>
         </div>
     </div>
     <hr>
 
-    <div>
+    <div id="ContactMe">
         <h2>Get In Touch</h2>
-        <p class="Contact-Message">If you want to contact or code with me</p>
+        <p class="Contact-Message">If you want to connect with me, just mail me.</p>
         <a href="contact.html">
             <button class="btn" >Contact Me</button>
         </a>
